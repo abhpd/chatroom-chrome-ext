@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: white;
+}
+
+.parent-container {
+    width: 400px;
+    height: 600px;
+    background-color: blanchedalmond;
+    position: relative;
+}
+
+.chat-container {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(48, 48, 48);
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.chat-input-container {
+    display: flex;
+}
+
+.chat-history-container {
+    padding: 10px;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+
+.login-container-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(48, 48, 48);
+    width: 400px;
+    height: 600px;
+    position: absolute;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    width: 350px;
+    height: 400px;
+    padding: 10px;
+    background-color: rgb(52, 38, 117);
+    position: relative;
+
+    border-radius: 10px;
+
+    opacity: 1;
+}
+
+.input-container {
+    width: 250px;
+}
+
+.login-text-input {
+    margin: 4px;
+}
+
+.login-text-button {
+    margin: 10px;
+}

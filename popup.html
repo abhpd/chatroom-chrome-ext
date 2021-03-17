@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="styles/interface.css" />
+    </head>
+    <body>
+        <div class="parent-container">
+            <div class="chat-container">
+                <div class="chat-input-container input-group">
+                    <input
+                        class="form-control"
+                        id="input-msg"
+                        type="text"
+                        placeholder="Type your message here"
+                    />
+                    <button
+                        type="button"
+                        class="btn btn-light"
+                        id="send-button"
+                    >
+                        send
+                    </button>
+                </div>
+                <div class="chat-history-container" id="chc">
+                    <div class="chat-history">
+                        <p>Abhishek : Hey there</p>
+                    </div>
+                    <div class="chat-history">
+                        <p>Surbhi : How you doing</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="login-container-holder" style="display: none">
+                <div class="login-container">
+                    <p>
+                        Open a new room with unique roomcode<br />
+                        or join one that you know.
+                    </p>
+                    <div class="input-container">
+                        <input
+                            class="form-control login-text-input"
+                            type="text"
+                            name="username"
+                            id="username"
+                            placeholder="User Name"
+                        />
+                        <input
+                            class="form-control login-text-input"
+                            type="text"
+                            name="roomcode"
+                            id="roomcode"
+                            placeholder="Room Code"
+                        />
+                        <button
+                            type="submit"
+                            class="btn btn-dark login-text-button"
+                        >
+                            Enter Room
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./scripts/chat.js"></script>
+    </body>
+</html>
