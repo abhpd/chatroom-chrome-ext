@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="parent-container">
-            <div class="chat-container">
+            <div class="chat-container" id="chatview">
                 <div class="chat-input-container input-group">
                     <input
                         class="form-control"
@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <div class="login-container-holder" style="display: none">
+            <div class="login-container-holder" id="loginview">
                 <div class="login-container">
                     <p>
                         Open a new room with unique roomcode<br />
@@ -65,6 +65,7 @@
                         <button
                             type="submit"
                             class="btn btn-dark login-text-button"
+                            id="enter-room"
                         >
                             Enter Room
                         </button>
@@ -72,6 +73,7 @@
                 </div>
             </div>
         </div>
+        <script src="./scripts/joinroom.js"></script>
         <script src="./scripts/chat.js"></script>
     </body>
 </html>

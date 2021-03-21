@@ -1,3 +1,5 @@
+// Chat
+
 const sendButton = document.getElementById("send-button");
 const inputMsg = document.getElementById("input-msg");
 

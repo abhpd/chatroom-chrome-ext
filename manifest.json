@@ -16,5 +16,12 @@
 
     "permissions": [
         "storage"
-    ]
+    ],
+
+    "background": {
+        "scripts": [
+            "scripts/socket.io.js",
+            "scripts/background.js"
+        ]
+    }
 }
