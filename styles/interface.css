@@ -15,7 +15,26 @@ p {
     position: relative;
 }
 
+.top-bar-chat {
+    height: 34px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    background-color: #969696;
+    width: 100%;
+}
+#exitRoom-button {
+    height: 34px;
+    width: 50px;
+}
+.roomcode-area {
+    display: flex;
+    padding-right: 10px;
+    color: white;
+}
+
 .chat-container {
+    padding-top: 36px;
     width: 400px;
     height: 600px;
     background-color: rgb(48, 48, 48);
@@ -26,6 +45,11 @@ p {
 
 .chat-input-container {
     display: flex;
+}
+
+#send-button {
+    background-color: rgb(89, 114, 255);
+    color: white;
 }
 
 .chat-history-container {
@@ -55,7 +79,7 @@ p {
     width: 350px;
     height: 400px;
     padding: 10px;
-    background-color: rgb(52, 38, 117);
+    background-color: rgb(89, 114, 255);
     position: relative;
 
     border-radius: 10px;
